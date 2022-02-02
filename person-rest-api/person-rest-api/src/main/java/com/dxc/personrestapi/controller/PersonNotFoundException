@@ -1,8 +1,0 @@
-package com.dxc.personrestapp.controller;
-
-public class personNotFoundException extends RuntimeException{
-    PersonNotFoundException(Integer id) {
-        super("Could not find Person " + id);
-
-}
-}
